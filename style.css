@@ -1,0 +1,161 @@
+body{
+    
+    height: 100vh;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+/* div>ul>li {
+    display: flex;
+    justify-content: space-between;
+} */
+.list li{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-family: 'Orbitron';
+}
+.list li:hover{
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px ;
+}
+.button-group{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    padding: 5px 20px;
+    margin: 0px 0px;
+    
+}
+.search-icon svg{
+    padding: 5px 5px;
+    font-size: 15px;
+}
+button .nav-button{
+    font-family:'Oritron';
+}
+.nav-button{
+    
+    padding:5px 5px;
+    width: 120px;
+    border-radius:10px ;
+    background: transparent;
+
+}
+.hero-container{
+    display: flex;
+    margin-top: 20px;
+
+}
+.square img{
+    position: relative;
+    left :275px;
+    top: 350px;
+    height: 300px ;
+    width: 300px;
+
+}
+.person-img img{
+    position: relative;
+    left: 0px;
+    margin-top: -300px;
+    height: 600px;
+    width: 500px;
+}
+
+.hero-container-left{
+    height: 600px;
+    width: 1500px;
+    margin-bottom: 100px;
+    /* margin-top: 50px; */
+}
+.hero-container-right{
+    text-align: center;
+    height: 600px;
+    width: 1500px;
+    /* margin-top: 50px; */
+    margin-bottom: 100px;
+}
+.hero-container-right h1{
+    font-family: 'Orbitron';
+    font-size: 50px;
+    padding: 20px 0px;
+    /* letter-spacing: 2px; */
+    margin: 130px 0px;
+    
+    
+}
+.hero-description{
+    font-size: 15px ;
+    font-family: 'Poppins';
+    margin-top: -80px;
+
+}
+.button-email{
+    margin-top: 50px;
+    width: 200px;
+    padding: 10px 10px;
+    font-family: 'Orbitron';
+    text-align: center;
+    border-radius: 15px;
+    border-color: black;
+    background: transparent;
+    font-family: 'Orbitron';
+
+}
+.button-join{
+    width: 120px;
+    padding: 10px 10px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: black;
+    font-family: 'Orbitron';
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Orbitron';
+}
+.contact{
+    text-align: center;
+    
+    margin-top: 70px;
+    right: ;
+
+}
+.contact h4{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    
+}
+.icons span{
+    padding: 5px 5px;
+}
+.star img{
+    position: absolute;
+    top: 170px;
+    right: 70px;
+    height: 50px;
+    width: 50px;
+}
+.star-one img{
+    position: absolute;
+    bottom: 80px;
+    left: 700px;
+    height: 35px;
+    width: 35px;
+}
+.globe img{
+    position: absolute;
+    top: 130px;
+    right: 550px;
+    height: 50px;
+    width: 50px;
+}
+
+
